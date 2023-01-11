@@ -1,4 +1,4 @@
-export default function counterReducer(state = 5, action) {
+export default function counterReducer(state = 0, action) {
     switch(action.type) {
         case 'INCREMENT':
             return state + 1
